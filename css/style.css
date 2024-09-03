@@ -1,0 +1,479 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{display: blockl;}
+body{
+    font-family:sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.parent{
+  display: flex;
+  justify-content: space-between;  
+}
+nav{
+    background-color: #41B3A2;
+    width: 100%;
+    color: rgb(250, 250, 250);
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 5;
+    padding-bottom: 1%;
+}
+nav img{
+    padding: 0px 6px;
+    margin-top: 10px;
+    background-color: #389789;
+}
+ul {
+    margin-top: 18px;
+    list-style: none ;
+    text-align: center;
+}
+.navbar li{
+padding: 4px;
+}
+.navbar li:hover{
+background-color: #3897897e;
+border-radius: 12%;
+cursor: pointer;
+}
+.navbar{
+    display: flex;
+    font-size: 90%;
+    justify-content:space-around ;
+    width: 35%;
+}
+.active{
+ background-color: #389789;
+padding: 6px 12px ;
+border-radius: 5px;
+border-bottom: 3px solid #297267;  
+}
+/* //////////////////////////////////////// */
+header{
+   background-image: url(../images/solar-panels-meadow\ 1.png);
+   color: white;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+}
+.dec{
+    width:58%;
+    padding:10% 10% 0 10%;
+}
+progress{
+    &::-webkit-progress-bar {background-color: #2c2b2b8a;};
+     &::-webkit-progress-value { background-color: #ffffff;};
+    border-radius: 0;
+    height: 5px;
+    margin: 5px 18px;
+   
+}
+header p{
+line-height: 160%;
+}
+.btn{
+    margin: 12px 6px 0px 0px;
+    padding: 6px 19px;
+    border-radius:14px;
+    border: none;
+    font-size: 100%;
+}
+.btn1{
+    background-color: #41B3A2;
+color: white;}
+.btn2{
+    background-color: #FFC700;
+}
+/* ////////////////////////////////////////////////// */
+.sec1{
+    overflow: auto;
+}
+.frame1 ,.frame2 {
+    width: 50%;
+    height: 100vh;
+    margin:3% 0px 0% 0%;
+   float: left;}
+.frame1 h2{
+    font-size:37px;
+    padding-bottom: 3%;
+}
+.frame1>p{
+    color: #5f5e5e;
+    line-height: 25px;
+    font-size:100%;
+    padding-bottom: 5%;
+}
+.frame1 div p{
+    color: #69dd5a;
+    font-size: 130%;
+   line-height: 32px;
+}
+.frame1 div span{
+    color: rgb(82, 73, 73);
+    padding-left: 13px;
+    font-weight: bold;
+    font-size: 19px;
+}
+ .frame2 img{
+    width:90%;
+    height:70%;
+   padding-left: 10%;
+   height: 80%;
+} 
+.frame2{
+    position: relative;
+}
+.icon-soler {
+    background-color: #FFC700;
+    padding: 20px;
+    border-radius: 10px;
+    width: 44%;
+    position: absolute;
+   top:70%}
+.icon-soler i{ font-size: 34px;
+    padding-bottom: 10px;}
+.icon-soler p{
+    font-size: 12px;
+}
+/* /////////////////////////////////////// */
+.sec2{
+    background-image: url(../images/8116\ 1.png);
+    height: 70vh;
+   background-size: cover;
+   background-position: center;
+   object-fit: cover;
+   color: white;
+} 
+.sec2 .dec2{width: 60%;
+padding-top: 7%;}
+.sec2 p {
+    line-height: 28px;
+    font-size: 16px;
+    padding-bottom: 3%;
+}
+/* //////////////////////////////// */
+.sec3 h2{
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.sec3 .p3{
+line-height: 20px;
+padding: 30px 100px;
+text-align: center;
+}
+.kits{
+width: 30%;
+  box-shadow: 5px 5px 4px rgb(216, 219, 219) ;
+}
+.kits img{
+    width: 100%;
+}
+.kits h3 ,.kits p ,.kits h4{
+      line-height: 22px;
+       padding: 12px;
+}
+h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* ////////////////////////////// */
+.sec4{
+    margin-top: 80px;
+    background-image: url(../images/8116\ 1\ \(1\).png);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sec4 div{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+    background-color: #2b2525b4;
+    color: white;
+    padding:36px;
+    border-radius: 12px;
+    text-align: center;
+    backdrop-filter: blur(1.5px)
+}
+.sec4 div h2{font-size: 30px;}
+.sec4 div p{
+    padding-top: 20px;
+    line-height: 24px;
+}
+/* ////////////////////////// */
+.sec5{
+    background-color: #fff9f9;
+}
+.sec5 .fa-bolt{
+background-color: #389789;
+font-size: 20px;
+color: white;
+padding: 10px 14px;
+border-radius: 9px;
+outline:6px solid #a9d3cdbb;
+}
+.sec5 .ss1 ,.sec5 .ss{width: 30%;}
+.sec5 h2 , .sec2 h2 , .sec6 h2{
+    padding: 26px 0px;
+    font-size:29px;
+}
+.sec5 .love img{
+ background-color:#86c7bd96;
+    width:20% ;
+    margin-left: 30%
+}
+.sec5 .love h3 , .sec6 h3{
+    padding: 10px 0px;
+} 
+.love{
+    background-color: #e1f5f185;
+    margin-bottom: 40px;
+    padding: 30px 17px;
+    border: 1px solid #63c4b5;
+    border-radius: 10px;
+}
+/* ////////////////////////////////// */
+.sec6 .love{
+    width: 30%;
+}
+.sec6 i , .sec7 i{
+    font-size: 32px;
+    padding-bottom: 5%;
+}
+.sec5 p , .sec6 p , .sec7 p{
+    color: #424443;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+ .sec7{margin: 5% 0%;}
+.sec7 .review1{
+width: 30%;}
+.sec7 .review2 {
+    width: 60%;
+}
+.sec7 h2{font-size: 36px;
+padding-bottom: 20px;} 
+.color{
+    background-color: #e1f5f185;
+    border-radius: 12px;
+    padding: 23px;
+}
+.color .icons1 i{
+    font-size: 10px;
+}
+.color>p{
+    width: 80%;
+    font-size: 22px;
+    line-height: 23px;
+}
+.color2{
+    margin-top: 50px;
+}
+.color2 span{
+    margin-left: 0;
+}
+.user h4{ padding: 12px 0px 4px 14px;}
+.user{display: flex;
+justify-content: space-between;
+}
+.user i{
+    color: #41B3A2;
+    padding: 11px 0px;
+}
+/* ////////////////////////////// */
+footer{ background-color: #266b7c;
+    padding: 4% 0%;
+  width: 100%;
+margin-top: 2%;} 
+ footer img{
+    width: 12%;
+    background-color: #aee6de;
+}
+footer .f1{width: 40%;}
+footer .f2{width: 60%;}
+footer .f2 p{margin-left: 44%;}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+footer .data{
+    margin-top: 10px;
+    margin-left: auto;
+    width: 60%;
+    border-radius: 18px;
+    border: 1px solid rgba(219, 218, 218, 0.288);
+}
+ footer input{
+background-color: #677c7313;
+border: none;
+outline: none;
+padding: 8px 7px;
+width: 65%;
+} 
+footer button{
+    background-color: #FFC700;
+    color: white;
+    border-radius:18px ;
+    border: none;
+    padding: 9px 20px;
+    width: 33%;
+}
+::placeholder{color: rgba(255, 255, 255, 0.582);
+padding-left: 3px;}
+ footer .ul2 {
+    color: #c7c3c3;
+        font-size: 12px;
+}
+footer .ul2 li{padding-left: 12px;}
+footer .p{color: #c7c3c3;
+    font-size: 12px;}
+/* // media */
+@media screen and (max-width:854px){
+    .dec {
+            width: 60%;
+            font-size: 93%;
+        }
+ /* ////////////////// */
+ .frame1 {width: 70%;}
+ .frame2{width: 30%;}
+ .frame1 h2{font-size: 25px ;}
+ .frame1 p{font-size:80%;
+  line-height: 20px;}
+.frame1 div p{
+       font-size: 90%;
+       line-height: 20px; 
+    }
+    .frame1 div p span{
+        font-size: 16px;
+    }
+    .frame2 img{width: 100%;
+       height: 60%;}
+    .sec1{margin-bottom: 3%;}
+    .icon-soler{top: 50%;
+    width: 80%;}
+/* /////////// */
+    .sec2{
+    background-position: 63%;
+    }
+/* /////////////////// */
+   .sec4 div {
+        width: 80%
+    } 
+/* ////////////////// */
+    .sec6 .parent , .sec5 .parent{display: block;
+    justify-content: space-around;}
+    .sec5 .ss{
+        width: 100%;
+    }
+        .sec6 .love {
+        width: 48%;
+        display: inline-block;
+        }
+  .sec7 .parent{display: block;}
+    .sec7 .review1 , .sec7 .review2{width: 100%;}
+ footer .data {
+     width: 80%;
+     margin-left: auto;  
+ }
+ footer input {
+     width: 65%;
+ }
+ footer button {
+     width: 33%;
+ }
+.f1 ul {font-size: 12px;
+}
+.final,.ul2 {width: 100%;
+text-align: end;}
+}
+@media screen and (max-width:678px) {
+    .container{
+        width: 100%;
+        padding: 0 3%;
+    }
+    .navbar{margin-left: -39px ;}
+    .phone{font-size: 12px;}
+    /* /////////////////////// */
+    .dec{
+        padding-top: 18%;
+        width: 80%;
+        font-size: 88%;}
+    progress{margin: 6px 4px;}
+    header{font-size: 83%; }
+    /* ////////////////// */
+    .frame1 ,.frame2 {
+        width: 90%;
+       display: block;
+    }
+    .frame2{margin-top: -90px;}
+    .frame1 div p{
+        font-size:85%; 
+        line-height: 23px;
+    }
+    .icon-soler {
+        width: 60%;
+    }
+   /* ////////////////// */
+   .sec2{height: 80vh;}
+   /* ////////////////////// */
+.sec3 h2 {
+    padding-top: 20px;
+    font-size: 26px;
+}
+.sec3 .p3 {
+    line-height: 21px;
+    padding: 30px 20px;
+    text-align: start;
+}
+    .sec3 .parent ,.sec5 .parent  , .sec6 .parent ,  footer .parent {display: block;}
+    .sec3 .kits  {width: 100%;
+     margin-bottom: 2%;
+    }
+ /* ///////////////// */
+    .sec4 div {width: 80%;
+    padding: 26px;}
+    .sec4{height: 88vh;}
+    .sec4 div h2 {
+       font-size: 22px;
+    }
+    .sec4 div p {
+           font-size: 16px;
+           line-height:20px;
+     }
+/* ///////////////////// */
+ .sec5 .ss  {
+    width: 90%;
+ }
+.sec6 i{ font-size: 24px;
+padding-bottom: 0;}
+.sec6 .love{
+    width: 97%;
+}
+footer .f1 ,footer .f2 ,.ul2{width: 85%;}
+ footer .data {
+     width: 70%;
+ }
+ footer input {
+width: 50%;
+ }
+ footer button {
+  width: 48%;
+ }}
